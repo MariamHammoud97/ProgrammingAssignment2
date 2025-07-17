@@ -27,6 +27,7 @@ cacheSolve <- function(x, ...) {
     + message("getting cached data")
     + return(inve)
     + }
+  Add makeCacheMatrix and cacheSolve solution for assignment
   + mat <- x$get()
   + inve <- solve(mat,...)
   + x$setinverse(inve)
